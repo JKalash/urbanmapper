@@ -23,11 +23,17 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@interface UMStation : NSObject
+
+@property(nonatomic, assign)CLLocationCoordinate2D location;
+@property(nonatomic, assign)double distance;
+@property(nonatomic, strong)NSString *stopDescription;
+@property(nonatomic, strong)NSString* stationId;
+@property(nonatomic, strong)NSMutableArray *facilities;
+@property(nonatomic, strong)NSMutableArray *arrivals;
+
+
+@end

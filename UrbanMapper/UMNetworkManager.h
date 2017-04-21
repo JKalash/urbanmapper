@@ -23,11 +23,27 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+#import <CoreLocation/CoreLocation.h>
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@interface UMNetworkManager : NSObject
+
+/*
+ * Static method that calls the unified API to closest tube stations to given loc parameter.
+ * Responds with a callback that attempts provides a list of stations with a fallback to standard NSError.
+ * @returns a URLSessionDataTask to cancel or track download progress
+ */
+
++ (NSURLSessionDataTask * _Nonnull) unifiedAPI:(CLLocationCoordinate2D)loc callback:(void (^_Nonnull)(NSArray * _Nullable, NSError* _Nullable))callback;
+
+
+/*
+ * Static method that fetches arrivals for a given stationId.
+ * Responds with a callback that attempts provides a list of arrivals with a fallback to standard NSError.
+ * @returns a URLSessionDataTask to cancel or track download progress
+ */
+
++ (NSURLSessionDataTask * _Nonnull) arrivalsForStation:(NSString * _Nonnull)stationId callback:(void (^_Nonnull)(NSArray * _Nullable, NSError* _Nullable))callback;
+
+@end

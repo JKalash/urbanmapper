@@ -23,11 +23,22 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "UMStation.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+@implementation UMStation
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _location = CLLocationCoordinate2DMake(0, 0);
+        _distance = 0.0;
+        _stopDescription = @"";
+        _stationId = @"";
+        _facilities = [NSMutableArray new];
+        _arrivals = [NSMutableArray new];
     }
+    return self;
 }
+
+@end

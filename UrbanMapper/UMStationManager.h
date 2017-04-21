@@ -23,11 +23,29 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+#import "UMStation.h"
+
+@protocol UMStationManagerDelegate <NSObject>
+
+// Called when manager refreshed station list close to the user's current location
+- (void)stationManagerRefreshedStations:(id)manager;
+
+// Called when manager refreshed latest arrivals for a given station
+- (void)stationManager:(id)manager refreshedArrivalsForStation:(UMStation *)station;
+
+// Called when manager encounters an error
+- (void)stationsManagerErrorRefreshing:(NSError*) error;
+
+// Called when user's detected location is out of London. Needed to 'whisper' to user.
+- (void)stationsManagerDetectedOutOfLondonLocation:(id)manager;
+
+@end
+
+@interface UMStationManager : NSObject
+
+@property(nonatomic, strong, readonly)NSMutableArray* nearbyStations;
+@property(nonatomic, weak)id<UMStationManagerDelegate> delegate;
+
+@end

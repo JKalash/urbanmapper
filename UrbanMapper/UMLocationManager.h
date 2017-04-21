@@ -23,11 +23,18 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+typedef void(^UMNewLocationBlock)(CLLocationCoordinate2D location, BOOL inLondon);
+
+@interface UMLocationManager : NSObject <CLLocationManagerDelegate>
+
+/* Method uses CoreLocation's GeoCoder's async reverseGeocodeLocation method to find out wether
+ * user's location is or is not in London. Result is passed through callback handler;
+ */
+@property(nonatomic, copy)UMNewLocationBlock newLocationCallback;
+
+-(id)init:(UMNewLocationBlock)newLocationCallback;
+
+@end

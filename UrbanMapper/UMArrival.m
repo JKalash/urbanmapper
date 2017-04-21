@@ -23,11 +23,24 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "UMArrival.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+@implementation UMArrival
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _lineId = @"";
+        _lineName = @"";
+        _platformName = @"";
+        _direction = @"";
+        _destinationName = @"";
+        _towards = @"";
+        _currentLocation = @"";
+        _timeToStation = 0.0;
     }
+    return self;
 }
+
+@end

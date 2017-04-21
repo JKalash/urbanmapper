@@ -23,11 +23,22 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+import Foundation
+import Whisper
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+@objc public class WhisperBridge: NSObject {
+    
+    static public func whisper(text: String, textColor: UIColor, backgroundColor: UIColor, toNavigationController: UINavigationController, delay: TimeInterval) {
+        
+        let murmur = Murmur(title: text, backgroundColor: backgroundColor, titleColor: textColor)
+        
+        // Show and hide a message after delay
+        Whisper.show(whistle: murmur, action: .show(0.5))
+        
+        // Present a permanent status bar message
+        Whisper.show(whistle: murmur, action: .present)
+        
+        // Hide a message
+        Whisper.hide(whistleAfter: delay)
     }
 }

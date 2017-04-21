@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E341F3D1EA917F400A9474D /* UMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E341F3C1EA917F400A9474D /* UMLocationManager.m */; };
+		3E3B6B2D1EA961EC00665C0F /* UMArrival.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B6B2C1EA961EC00665C0F /* UMArrival.m */; };
+		3E3B6B3B1EA971CC00665C0F /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B3A1EA971C100665C0F /* Lato-Regular.ttf */; };
+		3E3B6B3C1EA971D100665C0F /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B311EA971C100665C0F /* Lato-Black.ttf */; };
+		3E3B6B3D1EA971D100665C0F /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B321EA971C100665C0F /* Lato-BlackItalic.ttf */; };
+		3E3B6B3E1EA971D100665C0F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B331EA971C100665C0F /* Lato-Bold.ttf */; };
+		3E3B6B3F1EA971D100665C0F /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B341EA971C100665C0F /* Lato-BoldItalic.ttf */; };
+		3E3B6B401EA971D100665C0F /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B351EA971C100665C0F /* Lato-Hairline.ttf */; };
+		3E3B6B411EA971D100665C0F /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B361EA971C100665C0F /* Lato-HairlineItalic.ttf */; };
+		3E3B6B421EA971D100665C0F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B371EA971C100665C0F /* Lato-Italic.ttf */; };
+		3E3B6B431EA971D100665C0F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B381EA971C100665C0F /* Lato-Light.ttf */; };
+		3E3B6B441EA971D100665C0F /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B6B391EA971C100665C0F /* Lato-LightItalic.ttf */; };
+		3E63F3C31EA978B500AB7ED0 /* UMStationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F3C21EA978B500AB7ED0 /* UMStationManager.m */; };
+		3E63F3C71EA99FAE00AB7ED0 /* WhisperBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F3C61EA99FAE00AB7ED0 /* WhisperBridge.swift */; };
 		3EB2AA941EA8C45400FCCF11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2AA931EA8C45400FCCF11 /* main.m */; };
 		3EB2AA971EA8C45400FCCF11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2AA961EA8C45400FCCF11 /* AppDelegate.m */; };
-		3EB2AA9A1EA8C45400FCCF11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2AA991EA8C45400FCCF11 /* ViewController.m */; };
+		3EB2AA9A1EA8C45400FCCF11 /* UMStationListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2AA991EA8C45400FCCF11 /* UMStationListVC.m */; };
 		3EB2AA9D1EA8C45400FCCF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB2AA9B1EA8C45400FCCF11 /* Main.storyboard */; };
 		3EB2AA9F1EA8C45400FCCF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB2AA9E1EA8C45400FCCF11 /* Assets.xcassets */; };
 		3EB2AAA21EA8C45400FCCF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB2AAA01EA8C45400FCCF11 /* LaunchScreen.storyboard */; };
+		3EB2AAAD1EA8C9B400FCCF11 /* UMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2AAAC1EA8C9B400FCCF11 /* UMNetworkManager.m */; };
+		3EB2AAB11EA8D19B00FCCF11 /* UMStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2AAB01EA8D19B00FCCF11 /* UMStation.m */; };
+		5CA087C631DCB5A7D3BC0025 /* Pods_UrbanMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128D6FE7299EEC357BCA1DC3 /* Pods_UrbanMapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		128D6FE7299EEC357BCA1DC3 /* Pods_UrbanMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3869CAEF18FEC5F1AA7C12E1 /* Pods-UrbanMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrbanMapper/Pods-UrbanMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		3E341F3B1EA917F400A9474D /* UMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLocationManager.h; sourceTree = "<group>"; };
+		3E341F3C1EA917F400A9474D /* UMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLocationManager.m; sourceTree = "<group>"; };
+		3E3B6B2B1EA961EC00665C0F /* UMArrival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMArrival.h; sourceTree = "<group>"; };
+		3E3B6B2C1EA961EC00665C0F /* UMArrival.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMArrival.m; sourceTree = "<group>"; };
+		3E3B6B311EA971C100665C0F /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		3E3B6B321EA971C100665C0F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3E3B6B331EA971C100665C0F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		3E3B6B341EA971C100665C0F /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3E3B6B351EA971C100665C0F /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		3E3B6B361EA971C100665C0F /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		3E3B6B371EA971C100665C0F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		3E3B6B381EA971C100665C0F /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		3E3B6B391EA971C100665C0F /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		3E3B6B3A1EA971C100665C0F /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		3E63F3C11EA978B500AB7ED0 /* UMStationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMStationManager.h; sourceTree = "<group>"; };
+		3E63F3C21EA978B500AB7ED0 /* UMStationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMStationManager.m; sourceTree = "<group>"; };
+		3E63F3C61EA99FAE00AB7ED0 /* WhisperBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhisperBridge.swift; sourceTree = "<group>"; };
 		3EB2AA8F1EA8C45400FCCF11 /* UrbanMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB2AA931EA8C45400FCCF11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EB2AA951EA8C45400FCCF11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EB2AA961EA8C45400FCCF11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EB2AA981EA8C45400FCCF11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EB2AA991EA8C45400FCCF11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EB2AA981EA8C45400FCCF11 /* UMStationListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMStationListVC.h; sourceTree = "<group>"; };
+		3EB2AA991EA8C45400FCCF11 /* UMStationListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMStationListVC.m; sourceTree = "<group>"; };
 		3EB2AA9C1EA8C45400FCCF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EB2AA9E1EA8C45400FCCF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB2AAA11EA8C45400FCCF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB2AAA31EA8C45400FCCF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB2AAAB1EA8C9B400FCCF11 /* UMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMNetworkManager.h; sourceTree = "<group>"; };
+		3EB2AAAC1EA8C9B400FCCF11 /* UMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMNetworkManager.m; sourceTree = "<group>"; };
+		3EB2AAAF1EA8D19B00FCCF11 /* UMStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMStation.h; sourceTree = "<group>"; };
+		3EB2AAB01EA8D19B00FCCF11 /* UMStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMStation.m; sourceTree = "<group>"; };
+		55103353FE4C612FAA539503 /* Pods-UrbanMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrbanMapper/Pods-UrbanMapper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +74,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA087C631DCB5A7D3BC0025 /* Pods_UrbanMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025D289EC129746274237BCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3869CAEF18FEC5F1AA7C12E1 /* Pods-UrbanMapper.debug.xcconfig */,
+				55103353FE4C612FAA539503 /* Pods-UrbanMapper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E341F3A1EA917E300A9474D /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3E341F3B1EA917F400A9474D /* UMLocationManager.h */,
+				3E341F3C1EA917F400A9474D /* UMLocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		3E3B6B2F1EA9715D00665C0F /* Lato-Font */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B6B311EA971C100665C0F /* Lato-Black.ttf */,
+				3E3B6B321EA971C100665C0F /* Lato-BlackItalic.ttf */,
+				3E3B6B331EA971C100665C0F /* Lato-Bold.ttf */,
+				3E3B6B341EA971C100665C0F /* Lato-BoldItalic.ttf */,
+				3E3B6B351EA971C100665C0F /* Lato-Hairline.ttf */,
+				3E3B6B361EA971C100665C0F /* Lato-HairlineItalic.ttf */,
+				3E3B6B371EA971C100665C0F /* Lato-Italic.ttf */,
+				3E3B6B381EA971C100665C0F /* Lato-Light.ttf */,
+				3E3B6B391EA971C100665C0F /* Lato-LightItalic.ttf */,
+				3E3B6B3A1EA971C100665C0F /* Lato-Regular.ttf */,
+			);
+			name = "Lato-Font";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3E3B6B301EA9716700665C0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B6B2F1EA9715D00665C0F /* Lato-Font */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E63F3C01EA978A000AB7ED0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E63F3C11EA978B500AB7ED0 /* UMStationManager.h */,
+				3E63F3C21EA978B500AB7ED0 /* UMStationManager.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3E63F3C41EA97E8200AB7ED0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E63F3C61EA99FAE00AB7ED0 /* WhisperBridge.swift */,
+				3EB2AA981EA8C45400FCCF11 /* UMStationListVC.h */,
+				3EB2AA991EA8C45400FCCF11 /* UMStationListVC.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		3EB2AA861EA8C45400FCCF11 = {
 			isa = PBXGroup;
 			children = (
 				3EB2AA911EA8C45400FCCF11 /* UrbanMapper */,
 				3EB2AA901EA8C45400FCCF11 /* Products */,
+				025D289EC129746274237BCA /* Pods */,
+				E0D15C16E7E0C1964E38D309 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +167,16 @@
 			children = (
 				3EB2AA951EA8C45400FCCF11 /* AppDelegate.h */,
 				3EB2AA961EA8C45400FCCF11 /* AppDelegate.m */,
-				3EB2AA981EA8C45400FCCF11 /* ViewController.h */,
-				3EB2AA991EA8C45400FCCF11 /* ViewController.m */,
+				3EB2AAAE1EA8D19200FCCF11 /* Model */,
+				3EB2AAAA1EA8C99800FCCF11 /* Network */,
+				3E341F3A1EA917E300A9474D /* Location */,
+				3E63F3C01EA978A000AB7ED0 /* Controller */,
+				3E63F3C41EA97E8200AB7ED0 /* View */,
 				3EB2AA9B1EA8C45400FCCF11 /* Main.storyboard */,
 				3EB2AA9E1EA8C45400FCCF11 /* Assets.xcassets */,
 				3EB2AAA01EA8C45400FCCF11 /* LaunchScreen.storyboard */,
 				3EB2AAA31EA8C45400FCCF11 /* Info.plist */,
+				3E3B6B301EA9716700665C0F /* Resources */,
 				3EB2AA921EA8C45400FCCF11 /* Supporting Files */,
 			);
 			path = UrbanMapper;
@@ -79,6 +190,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3EB2AAAA1EA8C99800FCCF11 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3EB2AAAB1EA8C9B400FCCF11 /* UMNetworkManager.h */,
+				3EB2AAAC1EA8C9B400FCCF11 /* UMNetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		3EB2AAAE1EA8D19200FCCF11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EB2AAAF1EA8D19B00FCCF11 /* UMStation.h */,
+				3EB2AAB01EA8D19B00FCCF11 /* UMStation.m */,
+				3E3B6B2B1EA961EC00665C0F /* UMArrival.h */,
+				3E3B6B2C1EA961EC00665C0F /* UMArrival.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0D15C16E7E0C1964E38D309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128D6FE7299EEC357BCA1DC3 /* Pods_UrbanMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB2AAA61EA8C45400FCCF11 /* Build configuration list for PBXNativeTarget "UrbanMapper" */;
 			buildPhases = (
+				8F2695D1849204419185E39E /* [CP] Check Pods Manifest.lock */,
 				3EB2AA8B1EA8C45400FCCF11 /* Sources */,
 				3EB2AA8C1EA8C45400FCCF11 /* Frameworks */,
 				3EB2AA8D1EA8C45400FCCF11 /* Resources */,
+				82108055DBFA1B6A87B83771 /* [CP] Embed Pods Frameworks */,
+				EBA5FA067A6C93C548221C31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,7 +253,13 @@
 					3EB2AA8E1EA8C45400FCCF11 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 43S54AHEMG;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,6 +286,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3B6B3C1EA971D100665C0F /* Lato-Black.ttf in Resources */,
+				3E3B6B3D1EA971D100665C0F /* Lato-BlackItalic.ttf in Resources */,
+				3E3B6B3E1EA971D100665C0F /* Lato-Bold.ttf in Resources */,
+				3E3B6B3F1EA971D100665C0F /* Lato-BoldItalic.ttf in Resources */,
+				3E3B6B401EA971D100665C0F /* Lato-Hairline.ttf in Resources */,
+				3E3B6B411EA971D100665C0F /* Lato-HairlineItalic.ttf in Resources */,
+				3E3B6B421EA971D100665C0F /* Lato-Italic.ttf in Resources */,
+				3E3B6B431EA971D100665C0F /* Lato-Light.ttf in Resources */,
+				3E3B6B441EA971D100665C0F /* Lato-LightItalic.ttf in Resources */,
+				3E3B6B3B1EA971CC00665C0F /* Lato-Regular.ttf in Resources */,
 				3EB2AAA21EA8C45400FCCF11 /* LaunchScreen.storyboard in Resources */,
 				3EB2AA9F1EA8C45400FCCF11 /* Assets.xcassets in Resources */,
 				3EB2AA9D1EA8C45400FCCF11 /* Main.storyboard in Resources */,
@@ -146,14 +304,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82108055DBFA1B6A87B83771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbanMapper/Pods-UrbanMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2695D1849204419185E39E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA5FA067A6C93C548221C31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbanMapper/Pods-UrbanMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EB2AA8B1EA8C45400FCCF11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB2AA9A1EA8C45400FCCF11 /* ViewController.m in Sources */,
+				3E341F3D1EA917F400A9474D /* UMLocationManager.m in Sources */,
+				3EB2AAAD1EA8C9B400FCCF11 /* UMNetworkManager.m in Sources */,
+				3EB2AAB11EA8D19B00FCCF11 /* UMStation.m in Sources */,
+				3EB2AA9A1EA8C45400FCCF11 /* UMStationListVC.m in Sources */,
+				3E63F3C71EA99FAE00AB7ED0 /* WhisperBridge.swift in Sources */,
+				3E63F3C31EA978B500AB7ED0 /* UMStationManager.m in Sources */,
 				3EB2AA971EA8C45400FCCF11 /* AppDelegate.m in Sources */,
 				3EB2AA941EA8C45400FCCF11 /* main.m in Sources */,
+				3E3B6B2D1EA961EC00665C0F /* UMArrival.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,25 +485,36 @@
 		};
 		3EB2AAA71EA8C45400FCCF11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3869CAEF18FEC5F1AA7C12E1 /* Pods-UrbanMapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 43S54AHEMG;
 				INFOPLIST_FILE = UrbanMapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.UrbanMapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3EB2AAA81EA8C45400FCCF11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55103353FE4C612FAA539503 /* Pods-UrbanMapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 43S54AHEMG;
 				INFOPLIST_FILE = UrbanMapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkalash.UrbanMapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -314,6 +537,7 @@
 				3EB2AAA81EA8C45400FCCF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

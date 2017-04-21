@@ -23,11 +23,18 @@
  */
 
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@interface UMArrival : NSObject
+
+@property(nonatomic, strong)NSString *lineId;
+@property(nonatomic, strong)NSString *lineName;
+@property(nonatomic, strong)NSString *platformName;
+@property(nonatomic, strong)NSString *direction;
+@property(nonatomic, strong)NSString *destinationName;
+@property(nonatomic, strong)NSString *towards;
+@property(nonatomic, strong)NSString *currentLocation;
+
+@property(nonatomic, assign)NSTimeInterval timeToStation;
+
+@end
